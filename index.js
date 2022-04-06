@@ -15,7 +15,7 @@ function bmi(Weight,Height){
     var Weight=document.getElementById("inp1").value;
     parseFloat(Weight);
     var Height=document.getElementById('inp2').value;
-    parseFloat(Height);
+    Height=Height/3.2808;
     var BMI=Weight/(Height*Height);
     document.write(BMI);
     document.write('<br>')
@@ -28,16 +28,17 @@ if(BMI>=18.6 && BMI<=24.5){
    document.write("<h1 style='color:green;'>you are Healthy-Weight</h1>")
 }
 else
-if(BMI>=25.0 && BMI <= 29.9){
+if(BMI >=25.0 && BMI <= 29.9){
     //document.write("<h1 style='color:orange;'>your are over-weight</h1>")
 }
 else
-if(BMI>=30.0){
+if(BMI >=30.0){
    document.write("<h1 stle='color:purple;'>your are suffering with OBESITY</h1>")
 }
 
 }
 bmi()
+document.write("<br>");
 
    //var weight=prompt("enter your weight in kgs");
    //parseFloat(weight);
