@@ -3,7 +3,6 @@ var tweetcount=tweet.length;
 alert("you have written "+tweetcount+"characters left"+(150-tweetcount));
  
 document.write('<br>');
-
 function getMilk(){
     
 }
@@ -37,7 +36,7 @@ if(BMI >=30.0){
 }
 
 }
-bmi()
+
 document.write("<br>");
 
    //var weight=prompt("enter your weight in kgs");
@@ -63,5 +62,4 @@ else
 if(BMI>=30.0){
    document.write("<h1 stle='color:purple;'>your are suffering with OBESITY</h1>")
 }
-
 bmi()*/
